@@ -1,0 +1,22 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific files (like virtual environments)
+venv/
+.env
+
+# Ignore video and audio capture media
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.wav
+*.mp3
+
+# Ignore heavy deep learning model weights
+*.pt
+*.pth
+*.onnx
+*.weights
